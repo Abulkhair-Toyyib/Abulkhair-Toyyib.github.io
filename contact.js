@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
     form.addEventListener("submit", function(event) {
         event.preventDefault(); // prevent default page reload
 
-        emailjs.sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", form)
+        emailjs.sendForm("service_z31926s", "template_otxofut", form)
             .then(() => {
                 alert("Message sent successfully!");
                 form.reset(); // clear the form
